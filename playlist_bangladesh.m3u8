@@ -1,10 +1,33 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg.xml"
-# Bangladesh / Bangla free-to-air slice — 2026-11-22
-# Source playlist: https://github.com/Free-TV/IPTV
-# Full upstream playlist: https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8
-# This file is a starter slice. Channel URLs below are taken from the
-# upstream Free-TV/IPTV playlist structure — verify each stream before
-# relying on it live, and use the full upstream URL for the complete list.
-# To play: open index.html in this repo, or load this .m3u8 in VLC / any IPTV player.
-#EXTINF:-1 tvg-id="" tvg-name="Free-TV IPTV (full list)" group-title="Bangladesh",Free-TV IPTV — full playlist
-https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8
+# Bangladesh free-to-air channels — 2026-11-22
+# Source: https://iptv-org.github.io/iptv/countries/bd.m3u (iptv-org public list, fetched 2026-11-22 20:49 Dhaka)
+# Full upstream: https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8
+# Only Bangladeshi (.bd) free-to-air channels are listed here. Streams are
+# copied from the public iptv-org list — they were not play-tested live, so
+# verify each one before relying on it; some may be offline or geo-blocked.
+# To play: open this file in VLC / any IPTV player, or paste one channel URL
+# into the player on this repo's index.html page.
+#EXTINF:-1 tvg-id="ATNBangla.bd" group-title="General",ATN Bangla
+http://tvsen5.aynascope.net/atnbangla/index.m3u8
+#EXTINF:-1 tvg-id="BanglaVision.bd" group-title="General",Bangla Vision
+https://tvsen5.aynaott.com/banglavision/index.m3u8
+#EXTINF:-1 tvg-id="BoishakhiTV.bd" group-title="General",Boishakhi TV
+https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8
+#EXTINF:-1 tvg-id="DBCNews.bd" group-title="News",DBC News
+http://tvn3.chowdhury-shaheb.com/dbc/index.m3u8
+#EXTINF:-1 tvg-id="EkusheyTV.bd" group-title="News",Ekushey TV
+https://ekusheyserver.com/etvlivesn.m3u8
+#EXTINF:-1 tvg-id="GaziTV.bd" group-title="General",Gazi TV
+http://tvn1.chowdhury-shaheb.com/gazitv/index.m3u8
+#EXTINF:-1 tvg-id="MaasrangaTV.bd" group-title="Entertainment",Maasranga TV
+http://tvsen5.aynascope.net/maasrangatv/index.m3u8
+#EXTINF:-1 tvg-id="NTV.bd" group-title="General",NTV (Bangladesh)
+https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
+#EXTINF:-1 tvg-id="RTV.bd" group-title="General",RTV (Bangladesh)
+http://tvsen5.aynascope.net/RtvHD/index.m3u8
+#EXTINF:-1 tvg-id="TSports.bd" group-title="Sports",T Sports
+https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8
+#EXTINF:-1 tvg-id="EkhonTV.bd" group-title="Business",Ekhon TV
+https://tplay.live/out/bangladesh/ekhontv.index.m3u8
+#EXTINF:-1 tvg-id="DurontoTV.bd" group-title="Kids",Duronto TV
+https://livetv.shamon-cable.net:8443/Duronto/index.m3u8
