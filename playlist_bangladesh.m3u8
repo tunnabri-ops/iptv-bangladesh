@@ -1,10 +1,12 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg.xml"
-# Bangladesh free-to-air channels — 2026-11-22
-# Source: https://iptv-org.github.io/iptv/countries/bd.m3u (iptv-org public list, fetched 2026-11-22 20:49 Dhaka)
-# Full upstream: https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8
-# Only Bangladeshi (.bd) free-to-air channels are listed here. Streams are
-# copied from the public iptv-org list — they were not play-tested live, so
-# verify each one before relying on it; some may be offline or geo-blocked.
+# Bangladesh free-to-air channels — checked 2026-11-23 ~08:50 Dhaka (curl, 15s timeout)
+# Source: https://iptv-org.github.io/iptv/countries/bd.m3u (iptv-org public list)
+# LIVE-CONFIRMED (HTTP 200 + valid #EXTM3U): Bangla Vision, Boishakhi TV, Ekushey TV, NTV
+# UNVERIFIED from this VM (connection failed, NOT proven dead — may work in Bangladesh):
+#   ATN Bangla, DBC News, Gazi TV, Maasranga TV, RTV, Ekhon TV, Duronto TV
+# REMOVED: T Sports — its URL returns HTTP 404 (checked 2026-11-23); upstream
+#   iptv-org still lists the same dead URL, so no replacement was found there.
+#   The old entry is kept commented below so it can be restored if a working link appears.
 # To play: open this file in VLC / any IPTV player, or paste one channel URL
 # into the player on this repo's index.html page.
 #EXTINF:-1 tvg-id="ATNBangla.bd" group-title="General",ATN Bangla
@@ -25,8 +27,9 @@ http://tvsen5.aynascope.net/maasrangatv/index.m3u8
 https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
 #EXTINF:-1 tvg-id="RTV.bd" group-title="General",RTV (Bangladesh)
 http://tvsen5.aynascope.net/RtvHD/index.m3u8
-#EXTINF:-1 tvg-id="TSports.bd" group-title="Sports",T Sports
-https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8
+# REMOVED 2026-11-23: T Sports — https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8 returns HTTP 404
+# #EXTINF:-1 tvg-id="TSports.bd" group-title="Sports",T Sports  (disabled — 404)
+# https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8
 #EXTINF:-1 tvg-id="EkhonTV.bd" group-title="Business",Ekhon TV
 https://tplay.live/out/bangladesh/ekhontv.index.m3u8
 #EXTINF:-1 tvg-id="DurontoTV.bd" group-title="Kids",Duronto TV
