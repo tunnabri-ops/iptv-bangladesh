@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg.xml"
+#EXTM3U
 # Bangladesh free-to-air channels — checked 2026-11-23 ~08:50 Dhaka (curl, 15s timeout)
 # Source: https://iptv-org.github.io/iptv/countries/bd.m3u (iptv-org public list)
 # LIVE-CONFIRMED (HTTP 200 + valid #EXTM3U): Bangla Vision, Boishakhi TV, Ekushey TV, NTV
