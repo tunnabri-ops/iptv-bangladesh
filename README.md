@@ -12,7 +12,6 @@
 - **11 Bangladeshi channels** in `playlist_bangladesh.m3u8` — ATN Bangla, Bangla Vision, Boishakhi TV, DBC News, Ekushey TV, Gazi TV, Maasranga TV, NTV, RTV, Ekhon TV and Duronto TV
 - **4 streams live-confirmed** (checked 2026-11-23): Bangla Vision, Boishakhi TV, Ekushey TV, NTV
 - **Single-channel browser player** — `index.html` plays one channel's `.m3u8` link with HLS support
-- **EPG link included** in the playlist, so the player can show what's on now and next.
 
 ## 🚀 How to use
 
